@@ -57,6 +57,6 @@ public class CardClient extends APIBase {
         }
 
         lists.getCardList().clear();
-        logger.info("🗑️ All cards under list '{}' deleted successfully.", lists.getName());
+        logger.info("✅ All cards under list '{}' deleted successfully.", lists.getName());
     }
 }
