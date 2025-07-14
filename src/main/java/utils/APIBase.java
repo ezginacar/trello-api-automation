@@ -8,7 +8,7 @@ import java.util.Map;
 
 import static io.restassured.RestAssured.given;
 
-public class APIBase {
+public class APIBase{
     protected static final String BASE_URL = ConfigUtil.get("baseUrl");
     protected static final String KEY = ConfigUtil.get("apiKey");
     protected static final String TOKEN = ConfigUtil.get("apiToken");
